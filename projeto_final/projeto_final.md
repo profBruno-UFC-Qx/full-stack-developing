@@ -3,80 +3,66 @@ layout: default
 title: Projeto Final
 has_children: true
 has_toc: true
-prazo_proposta: A Definir
-prazo_modelagem: A Definir
-prazo_codigo: A Definir
+prazo_proposta: 15/10/2025
+prazo_telas: A definir
+prazo_front: A definir
+prazo_crud: A definir
+prazo_jwt: A definir
+prazo_final: A definir
 nav_order: 15
 ---
 
 # Projeto Final
 
-- [Projeto Final](#projeto-final)
-  - [Objetivo ](#objetivo-)
-  - [Requisitos mínimos ](#requisitos-mínimos-)
-    - [Frontend](#frontend)
-    - [Backend](#backend)
-    - [Conjunto da obra](#conjunto-da-obra)
-    - [Atenção](#atenção)
-  - [Critérios de avaliação ](#critérios-de-avaliação-)
-  - [Entregas](#entregas)
-    - [Apresentação do trabalho ](#apresentação-do-trabalho-)
-
-<!--
-  * [Proposta](#proposta)
-  * [Configurando o backend](#back01)
-  * [API REST de Usuários](#back02)
-  * [Salvando as informações no banco de dados](#back03)
-  * [Autenticação e Autorização](#back04)
-  * [Página de login e cadastro](#front01)
-  * [Protegendo rotas no front](#front02)
-  * [Entrega final](#final)
--->
-
-
+- [📝 Descrição](#descricão)
+- [🎯 Objetivos](#objetivos)
+- [📑 Requisitos mínimos](#requisitos-mínimos)
+- [✅ Critérios de avaliação ](#criterios)
+- [💾 Entregas](#entregas)
+- [🎤 Apresentação do trabalho ](#apresentação-do-trabalho-)
 
 ---
 
-## Objetivo <a name="obj"></a>
+## 📝Descrição
 
-Desenvolver uma aplicação web completa que inclua tanto o **frontend** quando o **backend**.
-O **backend** será desenvolvido utilizando **Node.js e Express** para criar uma **API REST**, 
-enquanto o **frontend** será construído em **Vue.js**.
+No projeto final, você deverá desenvolver um sistema completo **Fullstack** contendo:
+
+- Um backend desenvolvido utilizando Node.js e Express que fornecer uma API REST
+- Um frontend será construído em Vue.js utilizando a Composition API, Vue-Router e Pinia
 
 {:  .new }
 A temática do projeto deve possuir viés de extensão. Se você precisa de inspiração confira a página <a href="https://profbruno-ufc-qx.github.io/HubEx/" alt="Site com ideias de projetos relacionados com extensão" target="_blank">HubEx, que contém ideias de projetos de extensão.</a>
 
-O trabalho pode ser feito em equipe
-{: .label .label-blue }
 
-## Requisitos mínimos <a name="req"></a>
+## 🎯Objetivos
+- Consolidar todo o conteúdo aprendido ao longo da disciplina.
+- Exercitar integração entre frontend e backend.
+- Trabalhar em um fluxo de desenvolvimento próximo ao mercado.
 
+## 📑Requisitos mínimos
+
+1. **Backend** com Node.js, Express, TypeORM, SQLite e TypeScript.
+2. **Frontend** com Vue 3, Composition API, Vue Router, Pinia e TypeScript.
+3. **Autenticação JWT** (login, logout, rotas protegidas).
+4. Diferentes papéis de usuário (Admin pode gerenciar todos os dados, usuário comum apenas os próprios).
+5. Código organizado em **camadas** (services, controllers, routes, stores).
 
 ### Frontend
 
 - O **frontend** deve ser uma **SPA – Single Page Application** e sua página principal deve exibida automaticamente ao acessar a raiz da aplicação (**/**).
-- O **frontend** da aplicação web deve ser implementado utilizando a **Composition API** do **Vue** com Vite.
- 
-Não serão aceitos trabalhos implementados usando **Option API**.  Para mais detalhes  <a href="https://medium.com/@victor.souza2210/vue-js-composition-api-vs-options-api-qual-abordagem-escolher-a50a2f2f932b" target="_blank">leia este artigo</a>.
-{: .label .label-red }
-
-- O **frontend** da aplicação web deve ser implementado fazendo **OBRIGATORIAMENTE** uso das bibiliotecas **VueRouter** e **Pinia**. 
-  - As rotas do frontend não podem ser todas públicas.
-
-Não serão aceitos trabalhos implementados usando VUEX.
-{: .label .label-red }
-
 - O fronted deve ser **modularizar os trechos de HTML usados em várias páginas**. 
     - Exemplo: Deixar cabeçalho e rodapé em arquivos separados e incluí-los nas páginas onde serão necessários.
 
-
+{:  .warning }
+> - Não serão aceitos trabalhos que usam a **Option API**.  Para mais detalhes  <a href="https://medium.com/@victor.souza2210/vue-js-composition-api-vs-options-api-qual-abordagem-escolher-a50a2f2f932b" target="_blank">leia este artigo</a>.
+> - O **frontend** deve ser implementado fazendo **OBRIGATORIAMENTE** uso das bibiliotecas **VueRouter** e **Pinia**. 
+> - As rotas do frontend **NÃO** podem ser todas públicas.
+> - Não serão aceitos trabalhos implementados usando **VUEX**.
 
 ### Backend
 
-- O **backend** (API REST) com o qual a sua aplicação deve se comunicar deve ser construído utilizando o <a href="https://expressjs.com/" target="_blank">Express</a>.
 - O **backend** deverá ter pelos um endpoint com paginação
 - O **backend** deverá ter pelos um endpoint com opção de filtragem
-- O **backend** deve forncener um serivço de autenticação e autorização via **JWT**. 
 - Os dados da aplição devem ser armezandos em um banco de dados **SQLITE**.
  
  
@@ -98,21 +84,8 @@ Não serão aceitos trabalhos implementados usando VUEX.
 - A aplicação deve possuir uma **área pública com páginas/serviços acessíveis a todos; e uma área restrita com páginas/serviços acessíveis somente a usuários autenticados**.
   - A página de login e cadastro de usuários não é considerada uma área pública nessa contexto.
 
-### Atenção
-  
-O código do projeto que vai ser desenvolvido deve ser hospedado no <a href="http://www.github.com" target="_blank">GitHub</a>.
-{: .label .label-yellow }
 
-Caso o trabalho seja feito em equipe, cada membro da equipe deve usar seu próprio usuário para escrever código.
-{: .label .label-yellow }
-
-Não serão aceitos trabalhos implementados em um único commit.
-{: .label .label-red }
-
-TODOS os membros da equipe devem se envolver em atividades que incluem a ESCRITA de código HTML, CSS e principalmente JavaScript ou TypeScript.
-{: .label .label-red }
-
-## Critérios de avaliação <a name="criterios"></a>
+## ✅ Critérios de avaliação <a name="criterios"></a>
 
 - Implementação correta e completa dos requisitos funcionais definidos
 - Utlização adequada dos conceitos e tecnologias discutidos ao longo do curso
@@ -120,108 +93,75 @@ TODOS os membros da equipe devem se envolver em atividades que incluem a ESCRITA
 - Funcionalidade e desempenho da aplicação
 - Qualidade da apresentação do trabalho
 
+{: .warning }
+> - O código do projeto que vai ser desenvolvido deve ser hospedado no <a href="http://www.github.com" target="_blank">GitHub</a>.
+> - Caso o trabalho seja feito em equipe, cada membro da equipe deve usar seu próprio usuário para escrever código.
+> - Não serão aceitos trabalhos implementados em um único commit.
+> - TODOS os membros da equipe devem se envolver em atividades de desenvolvido do frontend e do backend.
+
+
+
 ---
 
-## Entregas
+## 💾Entregas
 
-**Em construção**
+### 🚩 Entrega 0 – Proposta do Projeto
 
-<!--
-Com o intuito de tentar acompanhar o desenvolvimento do projeto final, X entregas são previstas.
+O aluno deverá aceitar o [assingment do GitHub Classroom]() e preencher o README.md do repositório clonado.
 
-### Entrega 00:  Envio da proposta <a name="proposta"></a>
-
-O envio da proposta deve ser feita via SIGAA.
-
-### Entrega 01: Projeto do backend configurado com TypeScript <a name="back01"></a>
-
-Nesta entrega você deve atualizar o repositório do seu projeto final adicionado uma pasta chamada **backend**.
-Você deve fazer com que esta pasta seja um projeto **Nodejs** configurado para o uso do framework **Express**.
-É importante que este projeto esteja configurado para fazer o uso de **TypeScript**. 
-
-Nesta etapa o seu backend deve responder a qualquer requisição da mesma forma. A resposta deve conter
-um código HTML, que contém a descrição do seu projeto final e os nomes dos autores.
-
-<span class="label label-blue">Vale 0.5 pontos</span> <span class="label label-red">Data de entrega: 23/07/24 às 6:00</span>
-
-### Entrega 02: API REST de usuários <a name="back02"></a>
-
-Nesta entrega você deve atualizar o backend de forma que ele forneça uma API REST para entidade usuário.
-Portanto, ela deve fornecer ENDPOINT capazes de:
-  - Listar usuários
-  - Criar usuários
-  - Atualizar usuários
-  - Remover usuários
-
-É importante que você implemente as regras de negócio referente a usuários, ex: campos obrigatórios, papéis de usuário, dentre outros.
-
-Nesta entrega ainda não faremos o uso de um banco de dados. Logo, você pode simular o banco de dados guardando os dados em um JSON.
-
-<span class="label label-blue">Vale 1 ponto</span> <span class="label label-red">Data de entrega: 05/08/24 às 6:00</span>
-
-### Entrega 03: Salvando as informações no banco de dados <a name="back03"></a>
-
-Nesta entrega você deve alterar o **backend** da sua aplicação de forma que ele passe a guardar as informações de usuários em
-um banco de dados **SQLITE**. Para isso você deve fazer uso de um **ORM - Object Relational Mapping**.
-
-Em termos de funcionalidade, o seu backend continuará igual a versão da entrega anterior, porém agora ele estará realmente persistindo os dados da aplicação.
-
-<span class="label label-blue">Vale 1 ponto</span> <span class="label label-red">Data de entrega: 12/07/24 às 6:00</span>
-
-### Entrega 04: Autenticação e Autorização <a name="back04"></a>
-
-Nesta entrega você deverá configurar o seu **backed** para que ele seja capaz de autenticar e posteriormente autorizar usuários
-por meio da tecnologia **JWT - Json Web Token**.  Com isso você deve alterar a API do backend para que:
-  - Os ENDPOINT de **criar usuário, listar usuários, remover usuários** sejam acessíveis somente para usuários **adminstradores**.
-  - Os ENDPOINT de **atualizar usuário e listar um usuário** devem ser acessíveis somente para **usuários autenticados**. No entanto, **Um usuário não administrador  só pode atualizar o seu próprio cadastro.**
-
-<span class="label label-blue">Vale 1 ponto</span> <span class="label label-red">Data de entrega: 26/08/24 às 6:00</span>
-
-
--
-### Entrega 05: Regras de negócios implementadas <a name="back05"></a>
-
-Em teoria essa é devem a última entrega do backend, portanto, ao final desta entregas todas as regras de negócios necessárias para que sua aplicação funcione corretamente devem ser implementadas.
-É natural que ao longo do desenvolvimento do **frontend**, sejam necessária realizar algumas mudanças no **backend**, portanto não se preocupe com isso.
-
-<span class="label label-blue">Vale 1 ponto</span>
-
-
-### Entrega 05: Página de login e cadastro <a name="front01"></a>
-
-Esta deve ser a primeira entrega do **frontend** que já deve ser integrado ao **backend**. Nesta entrega você deve criar a página principal da aplicação,
-que inicialmente pode conter apenas dados fictícios e possuir uma aparência bem simples. Além disso, você deve criar a página que vai permitir
-que usuários se cadastrem na sua aplicação e a página de login. Ambas deve estar completamentes funcionais ao final da entrega.
-
-<span class="label label-blue">Vale 1 ponto</span>
-
-### Entrega 06: Protegendo rotas no front <a name="front02"></a>
-
-Nesta entrega você deve utilizar o **VueRouter** de modo que algumas rotas sejam acessíveis somente para usuários com um certo papel.
-Ex: rota /usuarios, acessível somente para usuários adminstradores. Importante, a página protegida pelo **VueRouter** não precisa estar funcional,
-o objetivo aqui é verificar se o uso do **VueRouter** está correto.
-
-<span class="label label-blue">Vale 1 ponto</span>
-
-
-## Entrega final <a name="final"></a>
-
-Antes de enviar o seu projeto para a avaliação será necessário realizar o preenchimento do restante do arquivo **README.md** do seu projeto.
-Para facilitar a sua vida, apenas altere a segunda parte do **README.md** disponibilizado como template. Além disso, é preciso enviar asInformações 
-sobre como utilizar o sistema, além de nomes de usuários e senhas devem ser enviadas por email para que eu possa testar o sistema.
-
-### Atenção
-
-Projetos que não disponibilizarem no README.md as informações acima serão desconsiderados.
+Prazo: {{ page.prazo_proposta }}
 {: .label .label-red }
 
-Não serão aceitos trabalhos implementados em um único commit.
+### 🎨 Entrega 01 – Primeira versão das telas
+
+- Criar o protótipo funcional das telas no Vue 3 com Vue Rouiter e Pinia.
+- Os dados podem ser hardcoded no frontend ou fornecidos por meio de um JSON Server.
+- O objetivo é estruturar os componentes, rotas e navegação.
+
+Prazo: {{ page.prazo_telas }}
 {: .label .label-red }
 
-Não serão aceitos trabalhos enviados em formato compactados, ex: zip, rar e similares
-{: .label .label-red }
--->
-### Apresentação do trabalho <a name="apresentacao"></a>
 
-O trabalho também deverá necessariamente ser apresentado conforme cronograma da disciplina. A não apresentação do trabalho pelo aluno em sua anulação.
+### 🖥️ Entrega 02 – Frontend totalmente funcional
+
+- Finalizar o frontend com todos os formulários, validações básicas e rotas prontas.
+- O backend pode ser simulado com Strapi ou ferramenta semelhante (MockAPI, JSON Server, etc.).
+- Nesta entrega, o aluno deverá demonstrar que o frontend funciona independente da implementação do backend.
+
+Prazo: {{ page.prazo_front }}
 {: .label .label-red }
+
+
+### ⚙️  Entrega 03 – Backend de Usuários
+
+- Criar o backend com Node.js, Express e TypeORM.
+- Implementar CRUD de usuários com todas as validações necessárias.
+- O banco de dados pode ser SQLite (mais simples para início) ou PostgreSQL.
+
+Prazo: {{ page.prazo_crud }}
+{: .label .label-red }
+
+
+### 🔐 Entrega 04 – Integração com autenticação JWT
+
+- Integrar frontend e backend.
+- Implementar login e cadastro de usuários.
+- Usar JWT para autenticação e autorização.
+- Restringir funcionalidades de acordo com o papel do usuário.
+
+Prazo: {{ page.prazo_jwt }}
+{: .label .label-red }
+
+
+### 🚀 Entrega 05 – Versão final
+
+- Entrega final do sistema, totalmente funcional.
+- [Relato de experiência devidamente preenchido](https://forms.gle/Zp6DL3AKid8jtF3y9)
+
+Prazo: {{ page.prazo_final }}
+{: .label .label-red }
+
+
+## 🎤 Apresentação do trabalho <a name="apresentacao"></a>
+
+O trabalho também deverá necessariamente ser apresentado conforme cronograma da disciplina..
