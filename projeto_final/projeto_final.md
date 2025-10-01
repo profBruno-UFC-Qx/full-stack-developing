@@ -107,7 +107,7 @@ A temática do projeto deve possuir viés de extensão. Se você precisa de insp
 
 ### 🚩 Entrega 0 – Proposta do Projeto
 
-O aluno deverá aceitar o [assingment do GitHub Classroom]() e preencher o README.md do repositório clonado.
+O aluno deverá aceitar o [assingment do GitHub Classroom](https://classroom.github.com/a/iVa2Dd1Z) e preencher o README.md do repositório clonado.
 
 Prazo: {{ page.prazo_proposta }}
 {: .label .label-red }
