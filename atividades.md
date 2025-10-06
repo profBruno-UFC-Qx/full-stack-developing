@@ -14,7 +14,7 @@ nav_order: 14
 ### 🔹 Exercício 1 – Portar aplicação Vanilla JS para Vue + TypeScript
 - **Tema:** Conversor de Temperatura (Celsius ↔ Fahrenheit ↔ Kelvin)  
 - **Objetivo:** Praticar fundamentos básicos do Vue: componentização, reatividade (`ref`), `computed` e diretivas (`v-model`).  
-- [Começe agora](#){: .btn .btn-blue }
+- [Começe agora](https://classroom.github.com/a/OSMtrfLJ){: .btn .btn-blue }
 
 Prazo: A definir
 {:  .label .label-red }
@@ -24,7 +24,7 @@ Prazo: A definir
 ### 🔹 Exercício 2 – Site de Receitas com Vue Router
 - **Tema:** Site simples de receitas  
 - **Objetivo:** Trabalhar navegação entre páginas com Vue Router, incluindo rotas dinâmicas e página 404.  
-- [Começe agora](#){: .btn .btn-blue }
+- [Começe agora](https://classroom.github.com/a/rdtgTx-5){: .btn .btn-blue }
 
 Prazo: A definir
 {:  .label .label-red }
