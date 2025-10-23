@@ -16,7 +16,7 @@ nav_order: 14
 - **Objetivo:** Praticar fundamentos básicos do Vue: componentização, reatividade (`ref`), `computed` e diretivas (`v-model`).  
 - [Começe agora](https://classroom.github.com/a/OSMtrfLJ){: .btn .btn-blue }
 
-Prazo: A definir
+Prazo: 27/10/25 às 13:38
 {:  .label .label-red }
 
 ---
@@ -26,7 +26,7 @@ Prazo: A definir
 - **Objetivo:** Trabalhar navegação entre páginas com Vue Router, incluindo rotas dinâmicas e página 404.  
 - [Começe agora](https://classroom.github.com/a/rdtgTx-5){: .btn .btn-blue }
 
-Prazo: A definir
+Prazo: 03/11/25 às 13:35
 {:  .label .label-red }
 
 ---
