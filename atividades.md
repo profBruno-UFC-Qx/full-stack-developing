@@ -33,7 +33,7 @@ Prazo: 03/11/25 às 13:35
 
 ### 🔹 Exercício 3 – Carrinho de Compras com Pinia
 - **Tema:** App de delivery com carrinho de compras  
-- **Objetivo:** Praticar gerenciamento de estado global com Pinia e persistência do estado no `localStorage`.  
+- **Objetivo:** Praticar gerenciamento de estado global com Pinia e persistência do estado no `localStorage`, autenticação e autorização via JWT e proteção de rotas..  
 - [Começe agora](#){: .btn .btn-blue }
 
 Prazo: A definir
@@ -41,17 +41,7 @@ Prazo: A definir
 
 ---
 
-### 🔹 Exercício 4 – Login e Gerenciamento de Pedidos
-- **Tema:** Expansão do app de delivery  
-- **Objetivo:** Implementar autenticação com JWT, proteção de rotas, e diferenciar usuários comuns de administradores.  
-- [Começe agora](#){: .btn .btn-blue }
-
-Prazo: A definir
-{:  .label .label-red }
-
----
-
-### 🔹 Exercício 5 – Site de Receitas com Node + Express
+### 🔹 Exercício 4 – Site de Receitas com Node + Express
 - **Tema:** Site de receitas renderizado no servidor  
 - **Objetivo:** Compreender como era o desenvolvimento web antes dos frameworks SPA, usando **Express + Template Engine (EJS/Handlebars)**.  
 - [Começe agora](#){: .btn .btn-blue }
