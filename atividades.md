@@ -34,7 +34,7 @@ Prazo: 03/11/25 às 13:35
 ### 🔹 Exercício 3 – Carrinho de Compras com Pinia
 - **Tema:** App de delivery com carrinho de compras  
 - **Objetivo:** Praticar gerenciamento de estado global com Pinia e persistência do estado no `localStorage`, autenticação e autorização via JWT e proteção de rotas..  
-- [Começe agora](#){: .btn .btn-blue }
+- [Começe agora](https://classroom.github.com/a/8nc0_AFp){: .btn .btn-blue }
 Prazo: A definir
 {:  .label .label-red }
 
