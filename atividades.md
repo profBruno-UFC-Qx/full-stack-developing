@@ -16,7 +16,7 @@ nav_order: 14
 - **Objetivo:** Praticar fundamentos básicos do Vue: componentização, reatividade (`ref`), `computed` e diretivas (`v-model`).  
 - [Começe agora](https://classroom.github.com/a/OSMtrfLJ){: .btn .btn-blue }
 
-Prazo: 27/10/25 às 13:38
+Prazo: 31/10/25 às 23:59
 {:  .label .label-red }
 
 ---
@@ -26,7 +26,7 @@ Prazo: 27/10/25 às 13:38
 - **Objetivo:** Trabalhar navegação entre páginas com Vue Router, incluindo rotas dinâmicas e página 404.  
 - [Começe agora](https://classroom.github.com/a/rdtgTx-5){: .btn .btn-blue }
 
-Prazo: 03/11/25 às 13:35
+Prazo: 07/11/25 às 23:59
 {:  .label .label-red }
 
 ---
@@ -35,6 +35,7 @@ Prazo: 03/11/25 às 13:35
 - **Tema:** App de delivery com carrinho de compras  
 - **Objetivo:** Praticar gerenciamento de estado global com Pinia e persistência do estado no `localStorage`, autenticação e autorização via JWT e proteção de rotas..  
 - [Começe agora](https://classroom.github.com/a/8nc0_AFp){: .btn .btn-blue }
+
 Prazo: A definir
 {:  .label .label-red }
 
