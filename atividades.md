@@ -36,7 +36,7 @@ Prazo: 07/11/25 às 23:59
 - **Objetivo:** Praticar gerenciamento de estado global com Pinia e persistência do estado no `localStorage`, autenticação e autorização via JWT e proteção de rotas..  
 - [Começe agora](https://classroom.github.com/a/8nc0_AFp){: .btn .btn-blue }
 
-Prazo: A definir
+Prazo: 23/11/25 às 23:59
 {:  .label .label-red }
 
 ---
