@@ -7,7 +7,7 @@ layout: default
 {% assign slide =  title[1] | replace: " ", "-" | prepend: page.nav_order %}
     
     {% if page.nav_order < 10 %}
-    {% assign slide =   slide | prepend: "0" | replace: "í", "i" %}
+    {% assign slide =   slide | prepend: "0" | replace: "í", "i" | replace: "á", "a" | replace: "â", "a" %}
     {% assign next = page.nav_order | plus: 1 | prepend: "0" %}
     {% else %}
     {% assign next = page.nav_order | plus: 1 %}
