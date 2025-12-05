@@ -46,7 +46,7 @@ Prazo: 23/11/25 às 23:59
 - **Objetivo:** Compreender como era o desenvolvimento web antes dos frameworks SPA, usando **Express + Template Engine (EJS/Handlebars)**.  
 - [Começe agora](#){: .btn .btn-blue }
 
-Prazo: A definir
+Prazo: 05/01/2026
 {:  .label .label-red }
 
 ---
