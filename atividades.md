@@ -43,8 +43,8 @@ Prazo: 23/11/25 às 23:59
 
 ### 🔹 Exercício 4 – Site de Receitas com Node + Express
 - **Tema:** Site de receitas renderizado no servidor  
-- **Objetivo:** Compreender como era o desenvolvimento web antes dos frameworks SPA, usando **Express + Template Engine (EJS/Handlebars)**.  
-- [Começe agora](#){: .btn .btn-blue }
+- **Objetivo:** Compreender como era o desenvolvimento web antes dos frameworks SPA, usando **Express + Template Engine (Handlebars)**.  
+- [Começe agora](https://classroom.github.com/a/gApUorJS){: .btn .btn-blue }
 
 Prazo: 05/01/2026
 {:  .label .label-red }
