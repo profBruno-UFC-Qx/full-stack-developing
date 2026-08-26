@@ -8,7 +8,7 @@ nav_order: 0
 
 ## Bem-vindos
 
-Está página é dedicada a disciplina de Desenvolvimento de Software para Web. 
+Está página é dedicada a disciplina de **QXD-0279 Desenvolvimento de Software para Web 02**. 
 Aqui disponibilizarei as vídeos aulas das disciplinas bem como a notas de aula. 
 Utilizaremos esta página juntamente com o nosso discord.
 
