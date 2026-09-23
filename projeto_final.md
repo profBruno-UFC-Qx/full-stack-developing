@@ -3,9 +3,9 @@ layout: default
 title: Projeto Final
 has_children: true
 has_toc: true
-prazo_form: Aguardando definição
-prazo_proposta: Aguardando definição
-prazo_final: Aguardando definição
+prazo_form: 01/09/2026
+prazo_proposta: 04/10/2026
+prazo_final: 29/11/2026
 nav_order: 15
 ---
 
