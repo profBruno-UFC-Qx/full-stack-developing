@@ -1,5 +1,5 @@
 ---
-title: "Aula 08 - Boas práticas em APIs Rest parte2"
+title: "Aula 09 - Organizando a API REST"
 layout: aulas
 nav_order: 9
 ---

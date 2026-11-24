@@ -4,13 +4,14 @@ layout: default
 
 {% unless page.parent %}
 {% assign title = page.title | split: "-"  %}
-{% assign slide =  title[1] | replace: " ", "-" | prepend: page.nav_order %}
+{% assign slide =  title[1] | replace: " ", "-" | prepend: page.nav_order | replace: "í", "i" | replace: "á", "a" | replace: "â", "a" %}
     
     {% if page.nav_order < 10 %}
-    {% assign slide =   slide | prepend: "0" | replace: "í", "i" | replace: "á", "a" | replace: "â", "a" %}
-    {% assign next = page.nav_order | plus: 1 | prepend: "0" %}
-    {% else %}
+    {% assign slide =   slide | prepend: "0" %}
+    {% endif %}
     {% assign next = page.nav_order | plus: 1 %}
+    {% if next < 10 %}
+    {% assign next = next | prepend: "0" %}
     {% endif %}
 
 {% endunless %}
